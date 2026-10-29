@@ -122,5 +122,4 @@ python MLPmodel.py
 e_i = \sqrt{(\hat{x}_i-x_i)^2 + (\hat{y}_i-y_i)^2}
 \]
 
-`MLPmodel.py` 中包含以受試者為單位的留一人測試迴圈。現有實作在不同迴圈之間沿用同一模型權重，因此**不能直接將其結果視為嚴格獨立的 Leave-One-Person-Out 驗證成果**。專案目前不在 README 宣稱特定準確率。
 
